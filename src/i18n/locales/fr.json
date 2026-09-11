@@ -1,0 +1,197 @@
+{
+  "brand": {
+    "name": "KireiPaste",
+    "tagline": "COPY MESSY. PASTE CLEAN.",
+    "subtagline": "Rendez vos contenus impeccables.",
+    "description": "Corrigez instantanément les espaces superflus, coupures de lignes et artefacts de formatage issus de PDF, sites web et IA."
+  },
+  "nav": {
+    "clean": "Nettoyer",
+    "pdf": "Nettoyeur PDF",
+    "ai": "Nettoyeur IA",
+    "features": "Fonctionnalités",
+    "howItWorks": "Comment ça marche",
+    "privacy": "Confidentialité",
+    "about": "À propos"
+  },
+  "hero": {
+    "badge": "100% Local & Privé",
+    "titleLine1": "COPY MESSY.",
+    "titleLine2": "PASTE CLEAN.",
+    "subtitle": "Corrigez les retours à la ligne cassés, la césure PDF et les caractères invisibles en un instant.",
+    "samplesPrompt": "Essayer un exemple :",
+    "samplePdf": "PDF cassé",
+    "sampleAi": "Chat IA",
+    "sampleWeb": "Copie Web",
+    "sampleScanned": "Doc scanné"
+  },
+  "cleaner": {
+    "inputTitle": "Votre texte brut",
+    "inputPlaceholder": "Collez ici votre texte désordonné issu d'un PDF, IA, web ou document...",
+    "outputTitle": "Texte propre",
+    "outputPlaceholder": "Votre texte nettoyé apparaîtra ici...",
+    "kireiButton": "✨ KIREI IT",
+    "cleaning": "Nettoyage...",
+    "clear": "Effacer",
+    "undo": "Annuler",
+    "paste": "Coller du presse-papiers",
+    "copy": "Copier le texte propre",
+    "copied": "Copié dans le presse-papiers !",
+    "download": "Télécharger",
+    "downloadTxt": "Texte brut (.txt)",
+    "downloadMd": "Markdown (.md)",
+    "diffView": "Voir les modifications",
+    "textView": "Vue standard",
+    "customizeRules": "Personnaliser les règles",
+    "settings": "Paramètres",
+    "statusClean": "Le texte est propre ✓",
+    "statusIssues": "{count} anomalies détectées",
+    "fixedSummary": "✓ {count} problèmes corrigés en {time}ms",
+    "fixedNone": "Le texte est déjà propre — aucune modification",
+    "bytesSaved": "{bytes} octets économisés",
+    "viewModes": {
+      "text": "Propre",
+      "diff": "Différences",
+      "split": "Côte à côte"
+    }
+  },
+  "categories": {
+    "extraSpaces": "Espaces superflus",
+    "brokenLineBreaks": "Sauts de ligne",
+    "blankLines": "Lignes vides",
+    "invisibleChars": "Caractères invisibles",
+    "hyphenation": "Césures PDF",
+    "unicodeArtifacts": "Artefacts Unicode",
+    "duplicateLines": "Lignes en double",
+    "aiPreamble": "Artefacts IA",
+    "htmlMarkdown": "HTML / Balises"
+  },
+  "stats": {
+    "words": "Mots",
+    "characters": "Caractères",
+    "lines": "Lignes",
+    "paragraphs": "Paragraphes",
+    "readingTime": "Temps de lecture",
+    "beforeAfter": "Avant / Après"
+  },
+  "presets": {
+    "title": "Modes Prédéfinis",
+    "allInOne": {
+      "name": "Tout-en-un Intelligent",
+      "desc": "Idéal pour le texte copié du web, notes et documents"
+    },
+    "pdf": {
+      "name": "Correcteur PDF",
+      "desc": "Répare les césures, colonnes cassées et numéros de page"
+    },
+    "aiChat": {
+      "name": "Nettoyeur Chat IA",
+      "desc": "Supprime les préambules d'IA et balises parasites"
+    },
+    "plainText": {
+      "name": "Texte Pur",
+      "desc": "Supprime tout balisage HTML/Markdown"
+    },
+    "codeSafe": {
+      "name": "Protection Code",
+      "desc": "Protège l'indentation tout en nettoyant les caractères invisibles"
+    }
+  },
+  "rulesModal": {
+    "title": "Règles de nettoyage personnalisées",
+    "subtitle": "Configurez des règles déterministes adaptées à vos besoins.",
+    "groups": {
+      "whitespace": "Espaces & Lignes",
+      "pdf": "Formatage PDF & Documents",
+      "unicode": "Unicode & Caractères Invisibles",
+      "markup": "Balisage & Nettoyage IA",
+      "preservation": "Préservation"
+    },
+    "normalizeSpaces": "Fusionner les espaces consécutifs en un seul",
+    "normalizeTabs": "Convertir les tabulations en espaces",
+    "trimLineEnds": "Supprimer les espaces en fin de ligne",
+    "removeExcessBlankLines": "Réduire 3+ lignes vides à 1 seule",
+    "fixPdfHyphenation": "Reconnecter les mots coupés par un tiret dans les PDF",
+    "fixPdfLineBreaks": "Fusionner les lignes coupées au milieu d'un paragraphe",
+    "removePageArtifacts": "Supprimer les numéros de page et en-têtes",
+    "removeZeroWidthChars": "Supprimer les espaces de largeur nulle (ZWSP) et le BOM",
+    "normalizeNonBreakingSpaces": "Convertir les espaces insécables (NBSP) en espaces normaux",
+    "normalizeQuotes": "Remplacer les guillemets courbes par des guillemets droits",
+    "normalizeFullWidth": "Convertir les caractères pleine chasse en ASCII",
+    "stripHtmlTags": "Supprimer les balises HTML en préservant le texte",
+    "cleanMarkdownArtifacts": "Nettoyer les symboles markdown vides",
+    "cleanAiPreamble": "Supprimer les formules d'introduction IA",
+    "removeDuplicateLines": "Supprimer les lignes consécutives identiques",
+    "preserveCodeBlocks": "Protéger les blocs ```code```",
+    "preserveLists": "Préserver l'indentation des listes à puces",
+    "save": "Appliquer les règles",
+    "reset": "Réinitialiser"
+  },
+  "features": {
+    "sectionTitle": "Conçu pour tous les pièges du copier-coller",
+    "sectionSubtitle": "Des publications scientifiques aux réponses d'IA, KireiPaste nettoie sans altérer vos propos.",
+    "items": [
+      {
+        "title": "Nettoyeur de texte intelligent",
+        "desc": "Supprime les espaces superflus, tabulations irrégulières et excès de sauts de ligne."
+      },
+      {
+        "title": "Réparateur de PDF",
+        "desc": "Rassemble les mots coupés et réassemble les paragraphes scindés en colonnes."
+      },
+      {
+        "title": "Sanitiseur d'IA",
+        "desc": "Supprime les préambules de conversation et balises de copie du web."
+      },
+      {
+        "title": "Traqueur de caractères invisibles",
+        "desc": "Élimine les espaces de largeur nulle et octets d'en-tête parasites."
+      },
+      {
+        "title": "Normalisateur Unicode",
+        "desc": "Harmonise les caractères pleine chasse, guillemets et espaces insécables."
+      },
+      {
+        "title": "Préparation de tableaux",
+        "desc": "Met en forme les données tabulaires pour un collage sans bavure."
+      }
+    ]
+  },
+  "why": {
+    "sectionTitle": "Pourquoi KireiPaste ?",
+    "subtitle": "Conçu pour les auteurs, développeurs et chercheurs exigeants.",
+    "items": [
+      {
+        "title": "100% Confidentialité locale",
+        "desc": "Vos textes ne quittent jamais votre navigateur. Zéro traitement cloud."
+      },
+      {
+        "title": "Zéro hallucination IA",
+        "desc": "Algorithmes déterministes. Nous ne réécrivons jamais votre contenu."
+      },
+      {
+        "title": "Vitesse sub-milliseconde",
+        "desc": "Nettoie des milliers de mots en moins de 15 millisecondes."
+      },
+      {
+        "title": "Inspection visuelle des différences",
+        "desc": "Vérifiez chaque caractère modifié grâce à la vue différentielle."
+      }
+    ]
+  },
+  "howItWorks": {
+    "sectionTitle": "Comment ça marche",
+    "subtitle": "Un cycle en 3 étapes simples pour un presse-papiers parfait.",
+    "step1Title": "1. Coller (Paste)",
+    "step1Desc": "Collez depuis un PDF, ChatGPT, ou un document scanné.",
+    "step2Title": "2. Détection instantanée (Detect)",
+    "step2Desc": "KireiPaste catégorise instantanément les anomalies de format.",
+    "step3Title": "3. Purifier & Copier (Kirei & Copy)",
+    "step3Desc": "Cliquez sur KIREI IT pour nettoyer le texte et le copier aussitôt."
+  },
+  "footer": {
+    "privacyPledge": "Engagement de confidentialité : KireiPaste s'exécute intégralement dans le bac à sable de votre navigateur. Aucune donnée n'est envoyée à un serveur.",
+    "rights": "Tous droits réservés. Conçu pour une typographie épurée.",
+    "shortcutsHint": "Raccourci : Appuyez sur Ctrl + Entrée (ou ⌘ + Entrée) pour nettoyer immédiatement."
+  }
+}

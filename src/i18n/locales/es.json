@@ -1,0 +1,197 @@
+{
+  "brand": {
+    "name": "KireiPaste",
+    "tagline": "COPY MESSY. PASTE CLEAN.",
+    "subtagline": "Limpia el contenido desordenado.",
+    "description": "Corrige espacios rotos, saltos de línea y formato de PDFs, webs, documentos y herramientas de IA al instante."
+  },
+  "nav": {
+    "clean": "Limpiar",
+    "pdf": "Limpiador PDF",
+    "ai": "Limpiador IA",
+    "features": "Capacidades",
+    "howItWorks": "Cómo Funciona",
+    "privacy": "Privacidad",
+    "about": "Acerca de"
+  },
+  "hero": {
+    "badge": "100% en el Navegador y Privado",
+    "titleLine1": "COPY MESSY.",
+    "titleLine2": "PASTE CLEAN.",
+    "subtitle": "Corrige espacios rotos, saltos de línea, guiones de PDF y caracteres invisibles en un instante.",
+    "samplesPrompt": "Probar un ejemplo desordenado:",
+    "samplePdf": "Salto PDF",
+    "sampleAi": "Chat IA",
+    "sampleWeb": "Texto Web",
+    "sampleScanned": "Doc Escaneado"
+  },
+  "cleaner": {
+    "inputTitle": "Tu texto desordenado",
+    "inputPlaceholder": "Pega aquí tu texto desordenado de PDF, IA, web o documento...",
+    "outputTitle": "Texto limpio",
+    "outputPlaceholder": "Tu texto limpio aparecerá aquí...",
+    "kireiButton": "✨ KIREI IT",
+    "cleaning": "Limpiando...",
+    "clear": "Borrar",
+    "undo": "Deshacer",
+    "paste": "Pegar desde Portapapeles",
+    "copy": "Copiar Texto Limpio",
+    "copied": "¡Copiado al Portapapeles!",
+    "download": "Descargar",
+    "downloadTxt": "Texto Plano (.txt)",
+    "downloadMd": "Markdown (.md)",
+    "diffView": "Ver Cambios",
+    "textView": "Vista Normal",
+    "customizeRules": "Personalizar Reglas",
+    "settings": "Ajustes",
+    "statusClean": "Se ve limpio ✓",
+    "statusIssues": "{count} problemas de formato detectados",
+    "fixedSummary": "✓ {count} problemas corregidos en {time}ms",
+    "fixedNone": "El texto ya está limpio — 0 cambios necesarios",
+    "bytesSaved": "{bytes} bytes limpiados",
+    "viewModes": {
+      "text": "Limpio",
+      "diff": "Cambios",
+      "split": "Lado a Lado"
+    }
+  },
+  "categories": {
+    "extraSpaces": "Espacios extra",
+    "brokenLineBreaks": "Saltos de línea",
+    "blankLines": "Líneas vacías",
+    "invisibleChars": "Caracteres invisibles",
+    "hyphenation": "Guiones PDF",
+    "unicodeArtifacts": "Artefactos Unicode",
+    "duplicateLines": "Líneas duplicadas",
+    "aiPreamble": "Artefactos IA",
+    "htmlMarkdown": "HTML / Marcado"
+  },
+  "stats": {
+    "words": "Palabras",
+    "characters": "Caracteres",
+    "lines": "Líneas",
+    "paragraphs": "Párrafos",
+    "readingTime": "Tiempo de lectura",
+    "beforeAfter": "Antes / Después"
+  },
+  "presets": {
+    "title": "Modos Preestablecidos",
+    "allInOne": {
+      "name": "Inteligente Todo en Uno",
+      "desc": "Ideal para texto general, sitios web y notas"
+    },
+    "pdf": {
+      "name": "Reparador de PDF",
+      "desc": "Repara columnas partidas, números de página y guiones"
+    },
+    "aiChat": {
+      "name": "Limpiador de Chat IA",
+      "desc": "Elimina preámbulos de IA, comillas invertidas y botones de copia"
+    },
+    "plainText": {
+      "name": "Texto Plano Puro",
+      "desc": "Elimina etiquetas HTML/Markdown y normaliza a texto sin formato"
+    },
+    "codeSafe": {
+      "name": "Seguro para Código",
+      "desc": "Protege bloques de código e indentaciones mientras limpia bugs invisibles"
+    }
+  },
+  "rulesModal": {
+    "title": "Reglas de Limpieza Personalizadas",
+    "subtitle": "Configura reglas de limpieza deterministas según tu flujo de trabajo.",
+    "groups": {
+      "whitespace": "Espacios y Líneas",
+      "pdf": "Formato PDF y Documentos",
+      "unicode": "Unicode y Caracteres Invisibles",
+      "markup": "Marcado y Limpieza de IA",
+      "preservation": "Protección"
+    },
+    "normalizeSpaces": "Normalizar múltiples espacios a uno solo",
+    "normalizeTabs": "Convertir tabulaciones a espacios",
+    "trimLineEnds": "Recortar espacios al final de cada línea",
+    "removeExcessBlankLines": "Reducir 3 o más líneas vacías a 1",
+    "fixPdfHyphenation": "Reconectar palabras divididas por guión en PDF",
+    "fixPdfLineBreaks": "Corregir saltos de línea dentro de párrafos de PDF",
+    "removePageArtifacts": "Eliminar números de página y encabezados/pies",
+    "removeZeroWidthChars": "Eliminar espacios de ancho cero, BOM y códigos de control",
+    "normalizeNonBreakingSpaces": "Convertir espacios indivisibles (NBSP) a espacios estándar",
+    "normalizeQuotes": "Normalizar comillas tipográficas a comillas rectas",
+    "normalizeFullWidth": "Convertir caracteres de ancho completo a ASCII",
+    "stripHtmlTags": "Eliminar etiquetas HTML preservando el texto",
+    "cleanMarkdownArtifacts": "Limpiar etiquetas de markdown vacías",
+    "cleanAiPreamble": "Eliminar introducciones de IA ('¡Por supuesto! Aquí está...')",
+    "removeDuplicateLines": "Eliminar líneas duplicadas consecutivas",
+    "preserveCodeBlocks": "Proteger bloques de código ``` de ajustes de espacio",
+    "preserveLists": "Preservar sangría de listas numeradas y con viñetas",
+    "save": "Aplicar Reglas",
+    "reset": "Restablecer"
+  },
+  "features": {
+    "sectionTitle": "Diseñado para Cualquier Copia/Pega",
+    "sectionSubtitle": "Desde artículos académicos hasta respuestas de IA, KireiPaste limpia el desorden sin cambiar tus palabras.",
+    "items": [
+      {
+        "title": "Limpiador de Texto Inteligente",
+        "desc": "Elimina espacios extra, pestañas irregulares e inundaciones de líneas vacías."
+      },
+      {
+        "title": "Reparador de PDF",
+        "desc": "Une palabras con guiones y reconecta oraciones divididas por columnas."
+      },
+      {
+        "title": "Sanitizador de IA",
+        "desc": "Elimina preámbulos conversacionales y etiquetas de copia de interfaz web."
+      },
+      {
+        "title": "Eliminador de Errores Invisibles",
+        "desc": "Elimina espacios de ancho cero y marcas de orden de bytes Unicode."
+      },
+      {
+        "title": "Normalizador Unicode",
+        "desc": "Armoniza caracteres de ancho completo, comillas y espacios no divisibles."
+      },
+      {
+        "title": "Preparación de Datos y Tablas",
+        "desc": "Prepara columnas de hojas de cálculo y texto del portapapeles para pegar limpiamente."
+      }
+    ]
+  },
+  "why": {
+    "sectionTitle": "¿Por qué KireiPaste?",
+    "subtitle": "Creado para escritores, desarrolladores, investigadores y profesionales.",
+    "items": [
+      {
+        "title": "100% Privacidad en el Navegador",
+        "desc": "Tu texto nunca sale de tu navegador. Cero procesamiento en la nube, cero registros."
+      },
+      {
+        "title": "Cero Alucinaciones de IA",
+        "desc": "Algoritmos deterministas. Nunca reescribimos ni alteramos tu significado."
+      },
+      {
+        "title": "Velocidad Sub-Milisegundo",
+        "desc": "Limpia miles de palabras en menos de 15 milisegundos directamente en JavaScript."
+      },
+      {
+        "title": "Inspección Inteligente de Diferencias",
+        "desc": "Inspecciona cada cambio de carácter, espacio o línea con la herramienta interactiva."
+      }
+    ]
+  },
+  "howItWorks": {
+    "sectionTitle": "Cómo Funciona",
+    "subtitle": "Un proceso simple de 3 pasos para un portapapeles impecable.",
+    "step1Title": "1. Pegar Desordenado",
+    "step1Desc": "Pega desde cualquier PDF, prompt de ChatGPT o documento escaneado.",
+    "step2Title": "2. Detección Instantánea",
+    "step2Desc": "KireiPaste clasifica errores de formato, guiones y caracteres invisibles.",
+    "step3Title": "3. Kirei y Copiar",
+    "step3Desc": "Haz clic en KIREI IT para purificar el texto y copiarlo limpiamente."
+  },
+  "footer": {
+    "privacyPledge": "Manifiesto de Privacidad: KireiPaste realiza todas las operaciones completamente en tu navegador local. Tus datos nunca tocan un servidor.",
+    "rights": "Todos los derechos reservados. Diseñado para una tipografía limpia.",
+    "shortcutsHint": "Presiona Ctrl + Enter (o ⌘ + Enter) para limpiar al instante."
+  }
+}

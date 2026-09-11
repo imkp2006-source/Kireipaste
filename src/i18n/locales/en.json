@@ -1,0 +1,197 @@
+{
+  "brand": {
+    "name": "KireiPaste",
+    "tagline": "COPY MESSY. PASTE CLEAN.",
+    "subtagline": "Make messy content clean.",
+    "description": "Fix broken spaces, line breaks and formatting from PDFs, websites, documents and AI tools — instantly."
+  },
+  "nav": {
+    "clean": "Clean",
+    "pdf": "PDF Cleaner",
+    "ai": "AI Cleaner",
+    "features": "Capabilities",
+    "howItWorks": "How It Works",
+    "privacy": "Privacy Guarantee",
+    "about": "About"
+  },
+  "hero": {
+    "badge": "100% Client-Side & Private",
+    "titleLine1": "COPY MESSY.",
+    "titleLine2": "PASTE CLEAN.",
+    "subtitle": "Fix broken spaces, line breaks, hyphenation, and copy/paste artifacts from PDFs, websites, documents, and AI tools — instantly.",
+    "samplesPrompt": "Try an instant messy sample:",
+    "samplePdf": "PDF Wrap",
+    "sampleAi": "AI Chat",
+    "sampleWeb": "Messy Web Copy",
+    "sampleScanned": "Scanned Doc"
+  },
+  "cleaner": {
+    "inputTitle": "Your messy text",
+    "inputPlaceholder": "Paste your messy text here from PDF, AI, web, or document...",
+    "outputTitle": "Clean text",
+    "outputPlaceholder": "Your cleaned text will appear here...",
+    "kireiButton": "✨ KIREI IT",
+    "cleaning": "Cleaning...",
+    "clear": "Clear",
+    "undo": "Undo",
+    "paste": "Paste from Clipboard",
+    "copy": "Copy Clean Text",
+    "copied": "Copied to Clipboard!",
+    "download": "Download",
+    "downloadTxt": "Plain Text (.txt)",
+    "downloadMd": "Markdown (.md)",
+    "diffView": "Show Diff",
+    "textView": "Standard View",
+    "customizeRules": "Customize Rules",
+    "settings": "Settings",
+    "statusClean": "Looks clean ✓",
+    "statusIssues": "{count} formatting issues detected",
+    "fixedSummary": "✓ {count} issues fixed in {time}ms",
+    "fixedNone": "Text is already clean — 0 changes needed",
+    "bytesSaved": "{bytes} bytes cleaned",
+    "viewModes": {
+      "text": "Clean",
+      "diff": "Changes",
+      "split": "Side-by-Side"
+    }
+  },
+  "categories": {
+    "extraSpaces": "Extra spaces",
+    "brokenLineBreaks": "Line breaks",
+    "blankLines": "Blank lines",
+    "invisibleChars": "Invisible chars",
+    "hyphenation": "PDF hyphenation",
+    "unicodeArtifacts": "Unicode artifacts",
+    "duplicateLines": "Duplicate lines",
+    "aiPreamble": "AI artifacts",
+    "htmlMarkdown": "HTML / Markup"
+  },
+  "stats": {
+    "words": "Words",
+    "characters": "Characters",
+    "lines": "Lines",
+    "paragraphs": "Paragraphs",
+    "readingTime": "Reading time",
+    "beforeAfter": "Before / After"
+  },
+  "presets": {
+    "title": "Cleaning Mode Presets",
+    "allInOne": {
+      "name": "Smart All-in-One",
+      "desc": "Best for general copy-pasted text, websites & notes"
+    },
+    "pdf": {
+      "name": "PDF Line & Hyphen Fix",
+      "desc": "Repairs broken column wraps, page numbers & hyphenation"
+    },
+    "aiChat": {
+      "name": "AI Chat Clean",
+      "desc": "Removes AI conversational fluff, stray backticks & copy buttons"
+    },
+    "plainText": {
+      "name": "Pure Plain Text",
+      "desc": "Strips all HTML/Markdown tags and normalizes into raw text"
+    },
+    "codeSafe": {
+      "name": "Code & Markdown Safe",
+      "desc": "Preserves code blocks and indents while removing invisible bugs"
+    }
+  },
+  "rulesModal": {
+    "title": "Custom Cleaning Rules",
+    "subtitle": "Configure deterministic cleaning rules according to your workflow.",
+    "groups": {
+      "whitespace": "Whitespace & Lines",
+      "pdf": "PDF & Document Formatting",
+      "unicode": "Unicode & Invisible Characters",
+      "markup": "Markup & AI Cleanup",
+      "preservation": "Safety Guards"
+    },
+    "normalizeSpaces": "Normalize multiple spaces into a single space",
+    "normalizeTabs": "Convert tabs to spaces",
+    "trimLineEnds": "Trim trailing whitespace on each line",
+    "removeExcessBlankLines": "Collapse 3+ blank lines to 1 blank line",
+    "fixPdfHyphenation": "Reconnect PDF broken hyphenated words (e.g., imple- mentation)",
+    "fixPdfLineBreaks": "Fix hard-wrapped sentence breaks from PDF columns",
+    "removePageArtifacts": "Remove page numbers and header/footer lines",
+    "removeZeroWidthChars": "Remove zero-width spaces, BOM, and invisible control codes",
+    "normalizeNonBreakingSpaces": "Convert non-breaking spaces (NBSP) to standard spaces",
+    "normalizeQuotes": "Normalize smart/curly quotes to standard straight quotes",
+    "normalizeFullWidth": "Convert full-width Latin characters (Ａ-Ｚ) to ASCII",
+    "stripHtmlTags": "Strip HTML tags while preserving text layout",
+    "cleanMarkdownArtifacts": "Clean empty markdown tags and orphaned fences",
+    "cleanAiPreamble": "Strip AI preambles ('Certainly! Here is...') and 'Copy code' buttons",
+    "removeDuplicateLines": "Remove adjacent duplicate lines",
+    "preserveCodeBlocks": "Protect ```code``` blocks from spacing adjustments",
+    "preserveLists": "Preserve bullet and numbered list indentations",
+    "save": "Apply Rules",
+    "reset": "Reset Defaults"
+  },
+  "features": {
+    "sectionTitle": "Engineered for Every Copy/Paste Trap",
+    "sectionSubtitle": "From academic papers to AI transcripts, KireiPaste cleans the mess without changing your actual words.",
+    "items": [
+      {
+        "title": "Smart Text Cleaner",
+        "desc": "Removes multi-spaces, trailing junk, tab irregularities, and blank line floods with precision."
+      },
+      {
+        "title": "PDF Document Healer",
+        "desc": "Reconnects hyphenated words and rejoins multi-column wrapped sentences effortlessly."
+      },
+      {
+        "title": "AI Output Sanitizer",
+        "desc": "Removes conversational preambles, trapped outer code fences, and web UI copy tags."
+      },
+      {
+        "title": "Invisible Bug Killer",
+        "desc": "Eliminates zero-width spaces, Unicode byte order marks, and invisible control glyphs."
+      },
+      {
+        "title": "Unicode Normalizer",
+        "desc": "Harmonizes full-width characters, curly quotes, and non-breaking spaces."
+      },
+      {
+        "title": "Data & Table Prep",
+        "desc": "Prepares messy copied spreadsheet columns and clipboard text for pasting."
+      }
+    ]
+  },
+  "why": {
+    "sectionTitle": "Why KireiPaste?",
+    "subtitle": "Built for writers, developers, researchers, and professionals who demand clean text.",
+    "items": [
+      {
+        "title": "100% Client-Side Privacy",
+        "desc": "Your text never leaves your browser. Zero cloud processing, zero logs, zero third-party tracking."
+      },
+      {
+        "title": "Zero AI Hallucinations",
+        "desc": "Deterministic regex and Unicode algorithms. We never rewrite, summarize, or alter your meaning."
+      },
+      {
+        "title": "Instant Sub-Millisecond Speed",
+        "desc": "Cleans thousands of words in under 15 milliseconds directly in JavaScript."
+      },
+      {
+        "title": "Smart Diff Inspection",
+        "desc": "Easily inspect every single character, space, or line change with the interactive diff tool."
+      }
+    ]
+  },
+  "howItWorks": {
+    "sectionTitle": "How It Works",
+    "subtitle": "A simple 3-step loop for flawless clipboard sanity.",
+    "step1Title": "1. Paste Messy",
+    "step1Desc": "Paste from any PDF, ChatGPT prompt, scanned paper, or web table.",
+    "step2Title": "2. Instant Detection",
+    "step2Desc": "KireiPaste instantly classifies formatting bugs, hyphens, and invisible chars.",
+    "step3Title": "3. Kirei & Copy",
+    "step3Desc": "Click KIREI IT to purify the text in 10ms, inspect diffs, and copy cleanly."
+  },
+  "footer": {
+    "privacyPledge": "Privacy Manifesto: KireiPaste performs all cleaning operations entirely in your local browser sandbox. Your data never touches a server.",
+    "rights": "All rights reserved. Made with precision for clean typography.",
+    "shortcutsHint": "Press Ctrl + Enter (or ⌘ + Enter) to clean instantly."
+  }
+}

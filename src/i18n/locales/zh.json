@@ -1,0 +1,197 @@
+{
+  "brand": {
+    "name": "KireiPaste",
+    "tagline": "COPY MESSY. PASTE CLEAN.",
+    "subtagline": "让混乱的复制文本重归整洁。",
+    "description": "即刻修复来自 PDF、网站、文档和 AI 工具的错乱空格、异常换行和多余格式。"
+  },
+  "nav": {
+    "clean": "文本整理",
+    "pdf": "PDF清理",
+    "ai": "AI清理",
+    "features": "功能特点",
+    "howItWorks": "工作原理",
+    "privacy": "隐私保证",
+    "about": "关于"
+  },
+  "hero": {
+    "badge": "100% 浏览器本地运行 · 绝对隐私",
+    "titleLine1": "COPY MESSY.",
+    "titleLine2": "PASTE CLEAN.",
+    "subtitle": "瞬间修复 PDF 断行、连字符断词、隐形零宽字符以及 AI 回复的多余寒暄。",
+    "samplesPrompt": "一键体验混乱样本:",
+    "samplePdf": "PDF 换行",
+    "sampleAi": "AI 对话",
+    "sampleWeb": "网页复制",
+    "sampleScanned": "扫描文档"
+  },
+  "cleaner": {
+    "inputTitle": "混乱的原始文本",
+    "inputPlaceholder": "在此粘贴来自 PDF、AI、网页或文档的混乱文本...",
+    "outputTitle": "整理后的纯净文本",
+    "outputPlaceholder": "整理后的文本将在此显示...",
+    "kireiButton": "✨ KIREI IT",
+    "cleaning": "正在整理...",
+    "clear": "清空",
+    "undo": "撤销",
+    "paste": "从剪贴板粘贴",
+    "copy": "复制纯净文本",
+    "copied": "已复制到剪贴板！",
+    "download": "下载",
+    "downloadTxt": "纯文本 (.txt)",
+    "downloadMd": "Markdown (.md)",
+    "diffView": "查看差异",
+    "textView": "标准视图",
+    "customizeRules": "自定义规则",
+    "settings": "设置",
+    "statusClean": "文本很整洁 ✓",
+    "statusIssues": "检测到 {count} 处格式问题",
+    "fixedSummary": "✓ 已在 {time} 毫秒内修复 {count} 处问题",
+    "fixedNone": "文本无需调整 — 已是最佳状态",
+    "bytesSaved": "节省 {bytes} 字节",
+    "viewModes": {
+      "text": "纯净文本",
+      "diff": "修改差异",
+      "split": "左右对照"
+    }
+  },
+  "categories": {
+    "extraSpaces": "多余空格",
+    "brokenLineBreaks": "异常换行",
+    "blankLines": "多余空行",
+    "invisibleChars": "隐形字符",
+    "hyphenation": "PDF断词连字符",
+    "unicodeArtifacts": "Unicode异常",
+    "duplicateLines": "重复行",
+    "aiPreamble": "AI前缀寒暄",
+    "htmlMarkdown": "HTML/标记残留"
+  },
+  "stats": {
+    "words": "词数",
+    "characters": "字符数",
+    "lines": "行数",
+    "paragraphs": "段落数",
+    "readingTime": "阅读时间",
+    "beforeAfter": "整理前 / 整理后"
+  },
+  "presets": {
+    "title": "预设清理模式",
+    "allInOne": {
+      "name": "智能全能模式",
+      "desc": "最适合日常网页复制、笔记及文档整理"
+    },
+    "pdf": {
+      "name": "PDF 断行断词修复",
+      "desc": "重连 PDF 分栏被截断的连字符与断行"
+    },
+    "aiChat": {
+      "name": "AI 输出净化",
+      "desc": "去除 ChatGPT 寒暄语、外层代码框及复制按钮标记"
+    },
+    "plainText": {
+      "name": "纯文本转换",
+      "desc": "去除所有 HTML/Markdown 标签并转为纯文本"
+    },
+    "codeSafe": {
+      "name": "代码安全模式",
+      "desc": "保护缩进与代码块，仅清除隐形字符与行尾空白"
+    }
+  },
+  "rulesModal": {
+    "title": "自定义清理规则",
+    "subtitle": "根据您的工作流定制确定性文本清理规则。",
+    "groups": {
+      "whitespace": "空白与行",
+      "pdf": "PDF 与文档排版",
+      "unicode": "Unicode 与隐形字符",
+      "markup": "标记与 AI 清理",
+      "preservation": "格式保护"
+    },
+    "normalizeSpaces": "将连续多个空格合并为一个",
+    "normalizeTabs": "将制表符转为空格",
+    "trimLineEnds": "清除每行末尾的多余空白",
+    "removeExcessBlankLines": "将3行以上的连续空行缩减为1行",
+    "fixPdfHyphenation": "修复 PDF 换行连字符（例如 imple- mentation）",
+    "fixPdfLineBreaks": "自动修复段落内的意外换行",
+    "removePageArtifacts": "移除页码和页眉页脚行",
+    "removeZeroWidthChars": "清除零宽空格、BOM 与不可见控制符",
+    "normalizeNonBreakingSpaces": "将不换行空格 (NBSP) 转换为普通空格",
+    "normalizeQuotes": "将弯引号（智能引号）转换为直引号",
+    "normalizeFullWidth": "将全角英数字（Ａ-Ｚ、０-９）转换为半角 ASCII",
+    "stripHtmlTags": "去除 HTML 标签但保留文字排版",
+    "cleanMarkdownArtifacts": "清理空 Markdown 标记与孤立符号",
+    "cleanAiPreamble": "清除 AI 寒暄（如'当然！这是您要的内容：'）",
+    "removeDuplicateLines": "去除连续重复的行",
+    "preserveCodeBlocks": "保护 ```代码块``` 不受空格调整影响",
+    "preserveLists": "保护列表项和缩进",
+    "save": "应用规则",
+    "reset": "恢复默认"
+  },
+  "features": {
+    "sectionTitle": "为各种复制陷阱而生",
+    "sectionSubtitle": "从学术论文到 AI 回复，KireiPaste 在不改变原文含义的前提下还原文稿本色。",
+    "items": [
+      {
+        "title": "智能文本整理",
+        "desc": "精准清除多余空格、行末杂物、不规则制表符与连环空行。"
+      },
+      {
+        "title": "PDF 文档修复",
+        "desc": "自动重连被连字符切断的单词，缝合分栏排版造成的断行。"
+      },
+      {
+        "title": "AI 对话净化",
+        "desc": "剔除 AI 工具的开场白、结尾套话与外层多余的代码块标记。"
+      },
+      {
+        "title": "隐形字符终结者",
+        "desc": "根除零宽空格、Unicode 字节顺序标记等隐形 Bug 诱因。"
+      },
+      {
+        "title": "Unicode 标准化",
+        "desc": "规范全角英数、特殊空格与各种异形引号。"
+      },
+      {
+        "title": "数据与表格准备",
+        "desc": "整理来自电子表格与剪贴板的杂乱行数据。"
+      }
+    ]
+  },
+  "why": {
+    "sectionTitle": "为什么选择 KireiPaste？",
+    "subtitle": "专为作家、开发者、研究员与高效办公者打造的高速纯净工具。",
+    "items": [
+      {
+        "title": "100% 浏览器本地隐私",
+        "desc": "文本绝不上传服务器。零云端处理、零日志记录、零追踪。"
+      },
+      {
+        "title": "零 AI 幻觉与窜改",
+        "desc": "基于严格的确定性算法，绝不会随意重写或篡改原文含义。"
+      },
+      {
+        "title": "15 毫秒内极速执行",
+        "desc": "原生 JavaScript 执行，数千字瞬间整理完毕。"
+      },
+      {
+        "title": "直观修改差异对比",
+        "desc": "通过交互式 Diff 视图随时核对每一个修改的字符与空格。"
+      }
+    ]
+  },
+  "howItWorks": {
+    "sectionTitle": "工作原理",
+    "subtitle": "简单的 3 步循环，告别剪贴板混乱。",
+    "step1Title": "1. 粘贴混乱文本 (Paste)",
+    "step1Desc": "粘贴来自 PDF、ChatGPT、网页或扫描件的文本。",
+    "step2Title": "2. 实时智能分析 (Detect)",
+    "step2Desc": "KireiPaste 实时归类格式异常、断词与隐形字符。",
+    "step3Title": "3. 瞬间净化并复制 (Kirei & Copy)",
+    "step3Desc": "点击 KIREI IT 立即整理，核对差异后一键复制。"
+  },
+  "footer": {
+    "privacyPledge": "隐私承诺：KireiPaste 的所有文本处理均在您的本地浏览器沙盒中完成，数据绝不上传服务器。",
+    "rights": "All rights reserved. 精致排版，始于纯净。",
+    "shortcutsHint": "快捷键：按 Ctrl + Enter (或 ⌘ + Enter) 立即整理。"
+  }
+}

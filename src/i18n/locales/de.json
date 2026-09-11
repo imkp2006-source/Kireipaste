@@ -1,0 +1,197 @@
+{
+  "brand": {
+    "name": "KireiPaste",
+    "tagline": "COPY MESSY. PASTE CLEAN.",
+    "subtagline": "Macht unordentlichen Text makellos.",
+    "description": "Repariert fehlerhafte Leerzeichen, Zeilenumbrüche und Formatierungsfehler aus PDFs, Webseiten und KI-Tools sofort."
+  },
+  "nav": {
+    "clean": "Bereinigen",
+    "pdf": "PDF-Bereiniger",
+    "ai": "KI-Bereiniger",
+    "features": "Funktionen",
+    "howItWorks": "Funktionsweise",
+    "privacy": "Datenschutz",
+    "about": "Über uns"
+  },
+  "hero": {
+    "badge": "100% Lokal im Browser & Privat",
+    "titleLine1": "COPY MESSY.",
+    "titleLine2": "PASTE CLEAN.",
+    "subtitle": "Beheben Sie fehlerhafte Leerzeichen, Zeilenumbrüche, PDF-Silbentrennungen und unsichtbare Zeichen im Handumdrehen.",
+    "samplesPrompt": "Beispieltext ausprobieren:",
+    "samplePdf": "PDF-Umbruch",
+    "sampleAi": "KI-Chat",
+    "sampleWeb": "Webtext",
+    "sampleScanned": "Scan-Dokument"
+  },
+  "cleaner": {
+    "inputTitle": "Ihr unordentlicher Text",
+    "inputPlaceholder": "Fügen Sie hier Ihren Text aus PDF, KI, Web oder Dokumenten ein...",
+    "outputTitle": "Sauberer Text",
+    "outputPlaceholder": "Ihr bereinigter Text erscheint hier...",
+    "kireiButton": "✨ KIREI IT",
+    "cleaning": "Wird bereinigt...",
+    "clear": "Löschen",
+    "undo": "Rückgängig",
+    "paste": "Aus Zwischenablage einfügen",
+    "copy": "Sauberen Text kopieren",
+    "copied": "In Zwischenablage kopiert!",
+    "download": "Herunterladen",
+    "downloadTxt": "Reiner Text (.txt)",
+    "downloadMd": "Markdown (.md)",
+    "diffView": "Änderungen anzeigen",
+    "textView": "Standardansicht",
+    "customizeRules": "Regeln anpassen",
+    "settings": "Einstellungen",
+    "statusClean": "Sieht sauber aus ✓",
+    "statusIssues": "{count} Formatierungsprobleme erkannt",
+    "fixedSummary": "✓ {count} Probleme in {time}ms behoben",
+    "fixedNone": "Text ist bereits sauber — keine Änderungen erforderlich",
+    "bytesSaved": "{bytes} Bytes eingespart",
+    "viewModes": {
+      "text": "Sauber",
+      "diff": "Änderungen",
+      "split": "Nebeneinander"
+    }
+  },
+  "categories": {
+    "extraSpaces": "Zusätzliche Leerzeichen",
+    "brokenLineBreaks": "Zeilenumbrüche",
+    "blankLines": "Leerzeilen",
+    "invisibleChars": "Unsichtbare Zeichen",
+    "hyphenation": "PDF-Silbentrennung",
+    "unicodeArtifacts": "Unicode-Artefakte",
+    "duplicateLines": "Doppelte Zeilen",
+    "aiPreamble": "KI-Artefakte",
+    "htmlMarkdown": "HTML / Markup"
+  },
+  "stats": {
+    "words": "Wörter",
+    "characters": "Zeichen",
+    "lines": "Zeilen",
+    "paragraphs": "Absätze",
+    "readingTime": "Lesezeit",
+    "beforeAfter": "Vorher / Nachher"
+  },
+  "presets": {
+    "title": "Voreingestellte Modi",
+    "allInOne": {
+      "name": "Smartes All-in-One",
+      "desc": "Optimal für kopierten Webtext, Notizen und Dokumente"
+    },
+    "pdf": {
+      "name": "PDF-Reparatur",
+      "desc": "Repariert Spaltenumbrüche, Seitenzahlen und Silbentrennung"
+    },
+    "aiChat": {
+      "name": "KI-Chat-Bereiniger",
+      "desc": "Entfernt KI-Einleitungsfloskeln und überflüssige Code-Rahmen"
+    },
+    "plainText": {
+      "name": "Reiner Klartext",
+      "desc": "Entfernt alle HTML/Markdown-Tags und normalisiert zu reinem Text"
+    },
+    "codeSafe": {
+      "name": "Codeschutz-Modus",
+      "desc": "Schützt Code-Einrückungen und entfernt unsichtbare Steuerzeichen"
+    }
+  },
+  "rulesModal": {
+    "title": "Benutzerdefinierte Bereinigungsregeln",
+    "subtitle": "Konfigurieren Sie deterministische Regeln für Ihren Arbeitsablauf.",
+    "groups": {
+      "whitespace": "Leerzeichen & Zeilen",
+      "pdf": "PDF- & Dokumentenformatierung",
+      "unicode": "Unicode & Unsichtbare Zeichen",
+      "markup": "Markup & KI-Bereinigung",
+      "preservation": "Schutzregeln"
+    },
+    "normalizeSpaces": "Mehrere Leerzeichen zu einem einzigen zusammenfassen",
+    "normalizeTabs": "Tabulatoren in Leerzeichen umwandeln",
+    "trimLineEnds": "Leerzeichen am Zeilenende entfernen",
+    "removeExcessBlankLines": "3+ aufeinanderfolgende Leerzeilen auf 1 reduzieren",
+    "fixPdfHyphenation": "Getrennte Wörter in PDFs reparieren (z. B. imple- mentation)",
+    "fixPdfLineBreaks": "Unerwünschte Zeilenumbrüche in Absätzen verbinden",
+    "removePageArtifacts": "Seitenzahlen und Kopf-/Fußzeilen entfernen",
+    "removeZeroWidthChars": "Nullbreiten-Leerzeichen (ZWSP) und BOM entfernen",
+    "normalizeNonBreakingSpaces": "Geschützte Leerzeichen (NBSP) in normale Leerzeichen umwandeln",
+    "normalizeQuotes": "Typografische Anführungszeichen in gerade Anführungszeichen ändern",
+    "normalizeFullWidth": "Vollbreite Zeichen (Ａ-Ｚ) in ASCII umwandeln",
+    "stripHtmlTags": "HTML-Tags entfernen unter Beibehaltung des Textlayouts",
+    "cleanMarkdownArtifacts": "Leere Markdown-Symbole bereinigen",
+    "cleanAiPreamble": "KI-Einleitungsfloskeln ('Natürlich! Hier ist...') entfernen",
+    "removeDuplicateLines": "Aufeinanderfolgende doppelte Zeilen entfernen",
+    "preserveCodeBlocks": "```Codeblöcke``` vor Änderungen schützen",
+    "preserveLists": "Einrückungen von Aufzählungen und Listen beibehalten",
+    "save": "Regeln anwenden",
+    "reset": "Zurücksetzen"
+  },
+  "features": {
+    "sectionTitle": "Entwickelt für jede Copy/Paste-Falle",
+    "sectionSubtitle": "Von wissenschaftlichen Papieren bis zu KI-Antworten: KireiPaste bereinigt den Text ohne inhaltliche Verfälschung.",
+    "items": [
+      {
+        "title": "Intelligenter Textbereiniger",
+        "desc": "Entfernt überflüssige Leerzeichen, unregelmäßige Tabs und Leerzeilenfluten."
+      },
+      {
+        "title": "PDF-Dokumentenheiler",
+        "desc": "Verbindet getrennte Wörter und fügt zersplitterte Sätze wieder zusammen."
+      },
+      {
+        "title": "KI-Text-Sanitizer",
+        "desc": "Entfernt Gesprächsfloskeln und lästige Kopier-Tags aus KI-Weboberflächen."
+      },
+      {
+        "title": "Unsichtbare-Fehler-Beseitiger",
+        "desc": "Beseitigt Nullbreiten-Leerzeichen und störende Byte-Order-Marks."
+      },
+      {
+        "title": "Unicode-Normalisierer",
+        "desc": "Harmonisiert Vollbreite-Zeichen, Anführungszeichen und geschützte Leerzeichen."
+      },
+      {
+        "title": "Daten- & Tabellenaufbereitung",
+        "desc": "Bereitet unordentliche Tabellenspalten für sauberes Einfügen vor."
+      }
+    ]
+  },
+  "why": {
+    "sectionTitle": "Warum KireiPaste?",
+    "subtitle": "Entwickelt für Autoren, Entwickler und Forscher mit hohen Ansprüchen.",
+    "items": [
+      {
+        "title": "100% Lokale Privatsphäre",
+        "desc": "Ihr Text verlässt niemals Ihren Browser. Keine Cloud-Verarbeitung, keine Logs."
+      },
+      {
+        "title": "Keine KI-Halluzinationen",
+        "desc": "Deterministische Algorithmen verändern niemals den Sinn Ihres Textes."
+      },
+      {
+        "title": "Sub-Millisekunden-Geschwindigkeit",
+        "desc": "Bereinigt Tausende von Wörtern in unter 15 Millisekunden."
+      },
+      {
+        "title": "Smarte Differenzprüfung",
+        "desc": "Überprüfen Sie jede vorgenommene Änderung visuell in der interaktiven Diff-Ansicht."
+      }
+    ]
+  },
+  "howItWorks": {
+    "sectionTitle": "So funktioniert es",
+    "subtitle": "In 3 einfachen Schritten zu einer makellosen Zwischenablage.",
+    "step1Title": "1. Einfügen (Paste)",
+    "step1Desc": "Fügen Sie Text aus PDF, ChatGPT oder gescannten Dokumenten ein.",
+    "step2Title": "2. Automatische Erkennung (Detect)",
+    "step2Desc": "KireiPaste klassifiziert Formatierungsfehler und unsichtbare Zeichen in Echtzeit.",
+    "step3Title": "3. Säubern & Kopieren (Kirei & Copy)",
+    "step3Desc": "Klicken Sie auf KIREI IT, prüfen Sie die Änderungen und kopieren Sie sauber."
+  },
+  "footer": {
+    "privacyPledge": "Datenschutz-Garantie: KireiPaste wird vollständig in der Sandbox Ihres lokalen Browsers ausgeführt. Es werden keine Daten an Server übertragen.",
+    "rights": "Alle Rechte vorbehalten. Gestaltet für makellose Typografie.",
+    "shortcutsHint": "Tastenkürzel: Drücken Sie Strg + Enter (oder ⌘ + Enter) zum sofortigen Bereinigen."
+  }
+}

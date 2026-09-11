@@ -1,0 +1,197 @@
+{
+  "brand": {
+    "name": "KireiPaste",
+    "tagline": "COPY MESSY. PASTE CLEAN.",
+    "subtagline": "乱れたテキストを美しく整える。",
+    "description": "PDFやAI、Webからコピーしたテキストの崩れた改行や空白、不要な書式を瞬時にクリーンアップ。"
+  },
+  "nav": {
+    "clean": "テキスト整形",
+    "pdf": "PDF整形",
+    "ai": "AI整形",
+    "features": "機能一覧",
+    "howItWorks": "使い方",
+    "privacy": "プライバシー",
+    "about": "KireiPasteについて"
+  },
+  "hero": {
+    "badge": "100% クライアント処理 & 安全",
+    "titleLine1": "COPY MESSY.",
+    "titleLine2": "PASTE CLEAN.",
+    "subtitle": "PDFの途切れ改行、ハイフネーション、見えない不可視文字、AIチャットの不要な前置きを瞬時に綺麗に整形。",
+    "samplesPrompt": "サンプルで試す:",
+    "samplePdf": "PDF崩れ",
+    "sampleAi": "AIチャット",
+    "sampleWeb": "Webコピー",
+    "sampleScanned": "スキャン文書"
+  },
+  "cleaner": {
+    "inputTitle": "乱れたテキスト",
+    "inputPlaceholder": "PDFやAI、Webからコピーしたテキストをここに貼り付け...",
+    "outputTitle": "整形されたテキスト",
+    "outputPlaceholder": "ここに綺麗なテキストが表示されます...",
+    "kireiButton": "✨ KIREI IT",
+    "cleaning": "整形中...",
+    "clear": "クリア",
+    "undo": "元に戻す",
+    "paste": "クリップボードから貼付",
+    "copy": "コピーする",
+    "copied": "コピー完了！",
+    "download": "ダウンロード",
+    "downloadTxt": "テキスト (.txt)",
+    "downloadMd": "Markdown (.md)",
+    "diffView": "差分表示",
+    "textView": "通常表示",
+    "customizeRules": "ルール詳細設定",
+    "settings": "設定",
+    "statusClean": "綺麗な状態です ✓",
+    "statusIssues": "{count}件のフォーマット崩れを検出",
+    "fixedSummary": "✓ {count}件を{time}msで整形完了",
+    "fixedNone": "すでに綺麗です — 変更はありません",
+    "bytesSaved": "{bytes} バイト削減",
+    "viewModes": {
+      "text": "テキスト",
+      "diff": "差分確認",
+      "split": "並列比較"
+    }
+  },
+  "categories": {
+    "extraSpaces": "余分な空白",
+    "brokenLineBreaks": "不自然な改行",
+    "blankLines": "連続空行",
+    "invisibleChars": "不可視文字",
+    "hyphenation": "PDFハイフン",
+    "unicodeArtifacts": "Unicode不整合",
+    "duplicateLines": "重複行",
+    "aiPreamble": "AI定型文",
+    "htmlMarkdown": "HTML/マークアップ"
+  },
+  "stats": {
+    "words": "単語数",
+    "characters": "文字数",
+    "lines": "行数",
+    "paragraphs": "段落数",
+    "readingTime": "読了目安",
+    "beforeAfter": "整形前 / 整形後"
+  },
+  "presets": {
+    "title": "整形プリセット",
+    "allInOne": {
+      "name": "スマート一括整形",
+      "desc": "一般的なWebコピーやメモの整形に最適"
+    },
+    "pdf": {
+      "name": "PDF改行・ハイフン修正",
+      "desc": "段組みPDFの途切れ改行やハイフン連結を修復"
+    },
+    "aiChat": {
+      "name": "AI出力クリーン",
+      "desc": "AIチャットの前置きや不要なコード枠を削除"
+    },
+    "plainText": {
+      "name": "プレーンテキスト化",
+      "desc": "HTMLタグや装飾をすべて除去し純粋なテキストに"
+    },
+    "codeSafe": {
+      "name": "コード保護モード",
+      "desc": "インデントを守りつつ不可視文字や末尾空白を削除"
+    }
+  },
+  "rulesModal": {
+    "title": "整形ルールのカスタマイズ",
+    "subtitle": "用途に合わせて決定論的なクリーニングルールを設定できます。",
+    "groups": {
+      "whitespace": "空白・改行",
+      "pdf": "PDF・文書整形",
+      "unicode": "Unicode・不可視文字",
+      "markup": "マークアップ・AI除去",
+      "preservation": "保護設定"
+    },
+    "normalizeSpaces": "連続する半角スペースを1つに統合",
+    "normalizeTabs": "タブをスペースに変換",
+    "trimLineEnds": "行末の不要な空白を削除",
+    "removeExcessBlankLines": "3行以上の連続空行を1行に整理",
+    "fixPdfHyphenation": "PDF改行ハイフン（例: imple- mentation）を結合",
+    "fixPdfLineBreaks": "文途中の不要な改行を自動結合",
+    "removePageArtifacts": "ページ番号やヘッダー行を削除",
+    "removeZeroWidthChars": "ゼロ幅スペースやBOM、不可視制御コードを削除",
+    "normalizeNonBreakingSpaces": "ノーブレークスペース (NBSP) を半角スペースに統一",
+    "normalizeQuotes": "スマート引用符を標準クォートに統一",
+    "normalizeFullWidth": "全角英数字（Ａ-Ｚ、０-９）を半角に変換",
+    "stripHtmlTags": "HTMLタグを除去しテキストのみ抽出",
+    "cleanMarkdownArtifacts": "空のMarkdown記号や余分なバッククォートを整理",
+    "cleanAiPreamble": "AI特有の挨拶（「承知いたしました」など）を除去",
+    "removeDuplicateLines": "連続する重複行を削除",
+    "preserveCodeBlocks": "```コードブロック```内の空白を保護",
+    "preserveLists": "箇条書きやリストのインデントを保護",
+    "save": "ルールを適用",
+    "reset": "初期値に戻す"
+  },
+  "features": {
+    "sectionTitle": "あらゆるコピペの悩みを解決",
+    "sectionSubtitle": "論文からAI出力まで、意味を変えずにテキスト本来の美しさを取り戻します。",
+    "items": [
+      {
+        "title": "スマートテキスト整形",
+        "desc": "連続スペース、行末のゴミ、タブの乱れ、過剰な空行を正確に除去。"
+      },
+      {
+        "title": "PDFドキュメント修復",
+        "desc": "行末のハイフン分断を再結合し、段組みで崩れた文を自然に繋ぎ直します。"
+      },
+      {
+        "title": "AI出力サニタイザー",
+        "desc": "AI特有の前置きテキストや外側の不要なMarkdownコード枠を除去。"
+      },
+      {
+        "title": "不可視文字キラー",
+        "desc": "コピペ事故の原因となるゼロ幅スペースやUnicode BOMを根絶。"
+      },
+      {
+        "title": "Unicode正規化",
+        "desc": "全角英数、特殊スペース、特殊引用符をクリーンに標準化。"
+      },
+      {
+        "title": "データ＆表テキスト整形",
+        "desc": "崩れたスプレッドシートやTSVのコピペテキストを整然とした行に整頓。"
+      }
+    ]
+  },
+  "why": {
+    "sectionTitle": "KireiPasteが選ばれる理由",
+    "subtitle": "ライター、エンジニア、研究者のための高速・安全なテキスト整形ツール。",
+    "items": [
+      {
+        "title": "100% ブラウザ内完結のプライバシー",
+        "desc": "入力したテキストは外部サーバーに一切送信されません。完全ローカル処理。"
+      },
+      {
+        "title": "AIのハルシネーション（嘘）ゼロ",
+        "desc": "決定論的正規表現エンジンを採用。文章の意味を勝手に書き換えることはありません。"
+      },
+      {
+        "title": "15ms以下の超高速処理",
+        "desc": "JavaScriptネイティブで数千文字を一瞬で整形。"
+      },
+      {
+        "title": "安心の差分確認機能",
+        "desc": "どの文字や空白が修正されたかをインタラクティブなDiffで確認可能。"
+      }
+    ]
+  },
+  "howItWorks": {
+    "sectionTitle": "使い方",
+    "subtitle": "3つのステップでいつでも綺麗なテキストに。",
+    "step1Title": "1. 貼り付け (Paste)",
+    "step1Desc": "PDFやChatGPT、Webサイトからテキストを貼り付けます。",
+    "step2Title": "2. 自動検知 (Detect)",
+    "step2Desc": "不要なスペースや改行崩れ、不可視文字をリアルタイムで検知。",
+    "step3Title": "3. 綺麗にしてコピー (Kirei & Copy)",
+    "step3Desc": "「KIREI IT」をクリックして瞬時に整形、ワンクリックでコピー。"
+  },
+  "footer": {
+    "privacyPledge": "プライバシー誓約: KireiPasteはすべての処理をお手元のブラウザ内でのみ実行します。テキストデータがサーバーへ送信されることはありません。",
+    "rights": "All rights reserved. Designed for clean typography.",
+    "shortcutsHint": "ショートカット: Ctrl + Enter (または ⌘ + Enter) で即座に整形。"
+  }
+}
