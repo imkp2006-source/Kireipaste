@@ -29,6 +29,7 @@ export const PixelSparkle: React.FC<PixelSparkleProps> = ({
       xmlns="http://www.w3.org/2000/svg"
       className={`inline-block animate-sparkle ${className}`}
       style={{ imageRendering: 'pixelated' }}
+      aria-hidden="true"
     >
       <rect x="7" y="2" width="2" height="2" fill={c} />
       <rect x="5" y="4" width="6" height="2" fill={c} />

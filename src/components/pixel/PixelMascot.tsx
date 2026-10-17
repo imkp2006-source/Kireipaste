@@ -39,7 +39,12 @@ export const PixelMascot: React.FC<PixelMascotProps> = ({
   };
 
   return (
-    <div className={`relative inline-flex items-center group cursor-pointer ${className}`} onClick={onClick}>
+    <div
+      className={`relative inline-flex items-center group cursor-pointer ${className}`}
+      onClick={onClick}
+      role="img"
+      aria-label="KireiPaste mascot Hōki-chan"
+    >
       {/* Speech bubble if enabled */}
       {showSpeechBubble && speechText && (
         <div className="absolute -top-10 left-1/2 -translate-x-1/2 whitespace-nowrap bg-kirei-panel border-2 border-kirei-purple text-xs font-mono px-2.5 py-1 rounded shadow-pixel-solid text-kirei-yellow animate-fade-in z-20">
@@ -56,6 +61,7 @@ export const PixelMascot: React.FC<PixelMascotProps> = ({
           xmlns="http://www.w3.org/2000/svg"
           className="w-full h-full"
           style={{ imageRendering: 'pixelated' }}
+          aria-hidden="true"
         >
           {/* Wood Handle */}
           <rect x="16" y="2" width="2" height="2" fill="#FBBF24" />

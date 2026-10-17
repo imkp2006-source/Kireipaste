@@ -41,6 +41,7 @@ export const Navbar: React.FC<NavbarProps> = ({
               window.scrollTo({ top: 0, behavior: 'smooth' });
             }}
             className="flex items-center gap-2.5 group focus:outline-none focus-visible:ring-2 focus-visible:ring-kirei-purple rounded-lg p-1"
+            aria-label="KireiPaste home"
           >
             <PixelMascot size="sm" state="idle" />
             <div className="flex flex-col">
@@ -57,7 +58,7 @@ export const Navbar: React.FC<NavbarProps> = ({
         </div>
 
         {/* Desktop Nav Links */}
-        <nav className="hidden md:flex items-center gap-6 text-sm font-medium text-kirei-text-secondary">
+        <nav className="hidden md:flex items-center gap-6 text-sm font-medium text-kirei-text-secondary" aria-label="Main Navigation">
           <button
             onClick={() => handleNavClick('cleaner-section', 'all-in-one')}
             className="hover:text-kirei-text-primary transition-colors cursor-pointer py-1"
@@ -81,6 +82,12 @@ export const Navbar: React.FC<NavbarProps> = ({
             className="hover:text-kirei-text-primary transition-colors cursor-pointer py-1"
           >
             {t('nav.features')}
+          </button>
+          <button
+            onClick={() => handleNavClick('guide-section')}
+            className="hover:text-kirei-text-primary transition-colors cursor-pointer py-1"
+          >
+            {t('nav.guide')}
           </button>
           <button
             onClick={() => handleNavClick('how-it-works-section')}
@@ -109,7 +116,7 @@ export const Navbar: React.FC<NavbarProps> = ({
             onClick={onOpenRules}
             title={t('cleaner.customizeRules')}
             className="p-1.5 text-kirei-text-secondary hover:text-kirei-text-primary hover:bg-kirei-panel rounded-lg border border-transparent hover:border-kirei-border transition-colors"
-            aria-label="Cleaning rules settings"
+            aria-label={t('cleaner.customizeRules')}
           >
             <Settings2 className="w-4 h-4" />
           </button>
@@ -165,6 +172,12 @@ export const Navbar: React.FC<NavbarProps> = ({
               className="text-left px-3 py-2 rounded-lg bg-kirei-card hover:bg-kirei-cardHover text-kirei-text-primary"
             >
               {t('nav.features')}
+            </button>
+            <button
+              onClick={() => handleNavClick('guide-section')}
+              className="text-left px-3 py-2 rounded-lg bg-kirei-card hover:bg-kirei-cardHover text-kirei-text-primary"
+            >
+              {t('nav.guide')}
             </button>
             <button
               onClick={() => handleNavClick('how-it-works-section')}

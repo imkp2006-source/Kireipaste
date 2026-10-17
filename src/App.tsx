@@ -5,6 +5,7 @@ import { Hero } from './components/sections/Hero';
 import { CleanerContainer } from './components/cleaner/CleanerContainer';
 import { FeatureModes } from './components/sections/FeatureModes';
 import { RulesShowcase } from './components/sections/RulesShowcase';
+import { SeoContentSection } from './components/sections/SeoContentSection';
 import { WhyKireiPaste } from './components/sections/WhyKireiPaste';
 import { HowItWorks } from './components/sections/HowItWorks';
 import { KeyboardShortcuts } from './components/sections/KeyboardShortcuts';
@@ -53,7 +54,7 @@ export const App: React.FC = () => {
 
       {/* Main Content Flow */}
       <main className="flex-1 flex flex-col">
-        {/* 1. Hero Section */}
+        {/* 1. Hero Section with H1 */}
         <Hero
           onSelectSample={handleSelectSample}
           mascotState={mascotState}
@@ -77,10 +78,13 @@ export const App: React.FC = () => {
           onSelectPreset={(p) => handleSelectPresetFromNav(p)}
         />
 
-        {/* 5. Why KireiPaste */}
+        {/* 5. Comprehensive SEO & Guide Content Section */}
+        <SeoContentSection />
+
+        {/* 6. Why KireiPaste */}
         <WhyKireiPaste />
 
-        {/* 6. How It Works */}
+        {/* 7. How It Works */}
         <HowItWorks />
       </main>
 

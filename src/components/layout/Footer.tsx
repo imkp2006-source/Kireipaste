@@ -48,6 +48,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenRules, onOpenShortcuts }) 
               <button
                 onClick={onOpenShortcuts}
                 className="text-xs text-kirei-purple-light hover:text-white bg-kirei-purple/10 border border-kirei-purple/30 px-3 py-1.5 rounded-lg transition-colors flex items-center gap-1.5"
+                aria-label="Keyboard Shortcuts"
               >
                 <span>⌨️ {t('footer.shortcutsHint')}</span>
               </button>
@@ -80,6 +81,11 @@ export const Footer: React.FC<FooterProps> = ({ onOpenRules, onOpenShortcuts }) 
                   Full-Width ASCII Normalizer
                 </a>
               </li>
+              <li>
+                <a href="#guide-section" className="hover:text-kirei-purple-light transition-colors">
+                  Text Cleaner Guide
+                </a>
+              </li>
             </ul>
           </div>
 
@@ -107,7 +113,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenRules, onOpenShortcuts }) 
               </li>
               <li>
                 <a href="#why-section" className="hover:text-kirei-purple-light transition-colors">
-                  Deterministic vs AI Comparison
+                  Deterministic vs AI
                 </a>
               </li>
               <li>
